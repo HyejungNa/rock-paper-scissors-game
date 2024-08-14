@@ -75,14 +75,6 @@ function App() {
   return (
     <div>
       <div className='title'>Choose your move</div>
-      <div className='box-main'>
-        <Box title='You' item={userSelect} result={result} />
-        <Box
-          title='Computer'
-          item={computerSelect}
-          result={invertResult(result)}
-        />
-      </div>
       <div className='button-main'>
         <button className='button' onClick={() => play('rock')}>
           rock
@@ -93,6 +85,14 @@ function App() {
         <button className='button' onClick={() => play('scissors')}>
           scissors
         </button>
+      </div>
+      <div className='box-main'>
+        <Box title='You' item={userSelect} result={result} />
+        <Box
+          title='Computer'
+          item={computerSelect}
+          result={invertResult(result)}
+        />
       </div>
     </div>
   );
