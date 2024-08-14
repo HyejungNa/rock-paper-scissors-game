@@ -74,6 +74,7 @@ function App() {
 
   return (
     <div>
+      <div className='title'>Choose your move</div>
       <div className='box-main'>
         <Box title='You' item={userSelect} result={result} />
         <Box
