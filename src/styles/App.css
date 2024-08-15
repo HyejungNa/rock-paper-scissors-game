@@ -25,8 +25,9 @@
 }
 
 .box-lose {
-  border-color: rgb(241, 28, 28);
+  border: 1px solid rgb(241, 28, 28);
   color: rgb(241, 28, 28);
+  transform: scale(0.7);
 }
 
 .box-tie {
